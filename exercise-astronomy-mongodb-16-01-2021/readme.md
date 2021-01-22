@@ -15,7 +15,7 @@
   * Ruta base: `http://localhost:3000/astronomy/landings`
 
     1. GET para obtener nombre y masa de todos aquellos meteoritos cuya masa sea igual o superior a una masa (gr) dada (con query parameters)
-    - Ejemplo: `/astronomy/landings/minimum-mass?=200000`
+    - Ejemplo: `/astronomy/landings/minimum_mass?=200000`
 
     2. GET para obtener nombre y masa de uno o más meteoritos cuya masa sea la especificada (route params)
     - Ejemplo: `/astronomy/landings/mass/200000`
